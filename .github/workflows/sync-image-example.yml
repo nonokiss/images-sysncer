@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/styletang/rocketmq-console-ng docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/rocketmq-console-ng
+        skopeo copy docker://docker.io/mysql:8.0.42 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/mysql:8.0.42
